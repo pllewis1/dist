@@ -194,9 +194,7 @@ h1 {
   width: 100%;
   text-align: center;
   background: #FF5722;
-  border-top: .3vmin solid #9D9E9E;
-  border-bottom-left-radius: 8vmin;
-  border-bottom-right-radius: 8vmin; }
+  border-top: .3vmin solid #9D9E9E; }
   .footer a {
     font-size: 10vmin;
     margin: 7%;
