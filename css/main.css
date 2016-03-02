@@ -85,7 +85,9 @@ h1 {
     margin-bottom: 7vmin; }
   .bio .biopara {
     width: 70%;
-    float: right; }
+    float: right;
+    background: rgba(0, 0, 0, 0.2);
+    }
     .bio .biopara p {
       color: #fff;
       font-size: 3.5vmin;
