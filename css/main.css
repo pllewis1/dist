@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+body {
+  width: 100%;
+  margin: 0; }
+
+h1 {
+  color: #FF5722;
+  text-align: center;
+  margin: 0;
+  border-bottom: 2px solid black;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 5vmin;
+  text-shadow: .3vmin .3vmin black;
+  padding-top: 12%;
+  margin-bottom: 7%; }
+
+.header_nav {
+  border-top: .3vmin solid #9D9E9E;
+  border-bottom: .3vmin solid #9D9E9E;
+  position: fixed;
+  top: 0;
+  height: 5vmin;
+  background: #000;
+  width: 100%;
+  padding-top: 1.2vmin; }
+
+.navButton {
+  text-align: center;
+  margin-bottom: 0;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5vmin;
+  margin-left: 8.5%;
+  text-decoration: none;
+  color: #fff; }
+
+.hero {
+  background: url("../assets/herobg1.png") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vmin; }
+  .hero h2 {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 3%;
+    text-align: center; }
+  .hero .social {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 12vmin; }
+    .hero .social a {
+      font-size: 3vmin;
+      margin: 2%;
+      color: #BEC2C3;
+      text-decoration: none;
+      background: #FF5722;
+      padding: 2vmin;
+      border-radius: 2vmin; }
+      .hero .social a:hover {
+        color: #fff; }
+
+.bio {
+  background: url("../assets/biobg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 10vmin; }
+  .bio .bioselfie {
+    width: 30vmin;
+    border-radius: 50%;
+    margin: auto;
+    vertical-align: center;
+    float: left;
+    margin-left: 22vmin;
+    margin-top: 5vmin; }
+  .bio h1 {
+    color: #FF5722;
+    text-align: center;
+    margin: 0;
+    border-bottom: 2px solid black;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5vmin;
+    text-shadow: .3vmin .3vmin black;
+    padding-top: 8%;
+    margin-bottom: 7vmin; }
+  .bio .biopara {
+    width: 70%;
+    float: right; }
+    .bio .biopara p {
+      color: #fff;
+      font-size: 3.5vmin;
+      margin: 3vmin;
+      margin-right: 10vmin;
+      line-height: 6vmin; }
+
+.port {
+  background: url("../assets/port.jpg") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden; }
+
+.portImgContainer {
+  border-bottom: 2px solid black;
+  box-sizing: initial;
+  width: 60vmin;
+  float: left;
+  margin-left: 25vmin;
+  margin-bottom: 7vmin; }
+  .portImgContainer:hover a {
+    z-index: 1;
+    transition: ease, z-index 1s; }
+  .portImgContainer:last-of-type {
+    border-bottom: none; }
+  .portImgContainer h2 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    color: #9E9E9E;
+    font-size: 3.5vmin;
+    margin-bottom: 0;
+    text-align: center; }
+    .portImgContainer h2:first-of-type {
+      margin-top: 10vmin; }
+  .portImgContainer a {
+    color: #9E9E9E; }
+
+.portfolio {
+  width: 60vmin;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background: #0088CE;
+  box-shadow: 1.5vmin 1.5vmin 5px #000; }
+  .portfolio:hover {
+    opacity: .5; }
+
+.hidden {
+  z-index: -1;
+  text-decoration: none;
+  transition: 1s ease, z-index;
+  margin: 0 5%;
+  position: relative;
+  top: 33vmin;
+  left: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4.5vmin;
+  text-shadow: .2vmin .2vmin black; }
+  .hidden:hover {
+    z-index: 1;
+    color: #FF5722; }
+    .hidden:hover + a .hidden {
+      z-index: 1; }
+    .hidden:hover ~ img {
+      opacity: .5; }
+
+.resume {
+  background: url("../assets/resume.jpg") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden; }
+  .resume embed {
+    margin-left: 26%; }
+  .resume h2 {
+    display: block;
+    text-align: center;
+    font-size: 3vmin;
+    margin-bottom: 10vmin; }
+    .resume h2 a {
+      color: #FF5722;
+      text-decoration: none; }
+      .resume h2 a:hover {
+        color: #BEC2C3; }
+
+.contact {
+  background: url("../assets/contact.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding-bottom: 5vmin; }
+  .contact i {
+    font-size: 7vmin;
+    color: #FF5722;
+    width: 100%;
+    text-align: center; }
+    .contact i:hover {
+      color: #BEC2C3; }
+  .contact h2 {
+    display: block;
+    text-align: center;
+    font-size: 4vmin; }
+    .contact h2 a {
+      color: #FF5722;
+      text-decoration: none; }
+      .contact h2 a:hover {
+        color: #BEC2C3; }
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background: #FF5722;
+  border-top: .3vmin solid #9D9E9E;
+  border-bottom-left-radius: 8vmin;
+  border-bottom-right-radius: 8vmin; }
+  .footer a {
+    font-size: 10vmin;
+    margin: 7%;
+    color: #BEC2C3; }
+    .footer a:hover {
+      color: #fff; }
