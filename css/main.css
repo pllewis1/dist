@@ -33,7 +33,11 @@ h1 {
   font-size: 3.5vmin;
   margin-left: 8.5%;
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+}
+.navButton:hover {
+  color: #9E9E9E;
+}
 
 .hero {
   background: url("../assets/herobg1.png") no-repeat center center fixed;
@@ -68,6 +72,7 @@ h1 {
   .bio .bioselfie {
     width: 30vmin;
     border-radius: 50%;
+    border: 4px solid rgba(0, 0, 0, 0.7);
     margin: auto;
     vertical-align: center;
     float: left;
